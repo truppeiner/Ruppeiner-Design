@@ -6,7 +6,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: whitesmoke;
+    background-color: gainsboro;
 }
 
 /* HEADER START */
@@ -71,11 +71,6 @@ header nav ul li a {
 /* END HEADER */
 /* BEGIN HERO SECTION */
 
-section {
-    padding: 60px;
-    border-bottom: 5px solid lightskyblue;
-}
-
 .hero {
     background-image: url(../images/hero-background.jpg);
     background-size: cover;
@@ -85,6 +80,8 @@ section {
     justify-content: flex-end;
     background-position: 80%;
     height: 300px;
+    padding: 60px;
+    border-bottom: 5px solid lightskyblue;
 }
 
 .hero div {
@@ -113,3 +110,26 @@ section {
 
 /* END HERO SECTION */
 /* BEGIN ABOUT ME SECTION */
+
+#about-me {
+    display: flex;
+    padding: 60px;
+}
+
+#about-me h2 {
+    text-align: right;
+    padding-right: 45px;
+    margin-left: 80px;
+    color: midnightblue;
+    font-size: 36px;
+}
+
+#about-me p {
+    border-left: 5px solid midnightblue;
+    flex-wrap: wrap;
+    padding-left: 45px;
+    color: darkslateblue;
+    line-height: 25px;
+}
+
+/* END ABOUT ME SECTION */
