@@ -8,6 +8,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: whitesmoke;
 }
+
 /* HEADER START */
 
 header {
@@ -29,7 +30,7 @@ header h1 a {
     background-color: lightskyblue;
     color: rgb(63, 62, 62);
     text-decoration: none;
-    padding: 5px 5px 5px 40px;
+    padding: 5px 10px 5px 40px;
     font-weight: bold;
 }
 
@@ -52,6 +53,7 @@ header nav ul li a {
     text-decoration: none;
     color: lightskyblue;
     border-bottom: 3px solid lightskyblue;
+    border-radius: 5px;
     margin: 5px 10px;
 
 }
@@ -59,7 +61,6 @@ header nav ul li a {
 .btn:hover {
     background-color: lightskyblue;
     color: rgb(63, 62, 62);
-    border-radius: 5px;
     font-weight: bold;
     transform-origin: bottom;
     transform: scale(0);
@@ -67,4 +68,48 @@ header nav ul li a {
 
 }
       
-    
+/* END HEADER */
+/* BEGIN HERO SECTION */
+
+section {
+    padding: 60px;
+    border-bottom: 5px solid lightskyblue;
+}
+
+.hero {
+    background-image: url(../images/hero-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-position: 80%;
+    height: 300px;
+}
+
+.hero div {
+    align-self: flex-end;
+}
+
+.hero div a {
+    background-color: rgb(63, 62, 62);
+    color: lightskyblue;
+    border-radius: 5px;
+    border: 2px solid lightskyblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.hero div a:hover {
+    color: rgb(63, 62, 62);
+    background-color: lightskyblue;
+    border-color: rgb(63, 62, 62);
+    transform-origin: bottom;
+    transform: scale(0);
+    transition: .5s linear;
+}
+
+/* END HERO SECTION */
+/* BEGIN ABOUT ME SECTION */
