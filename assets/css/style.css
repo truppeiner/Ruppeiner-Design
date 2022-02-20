@@ -122,10 +122,10 @@ header nav ul li a {
     margin-left: 80px;
     color: midnightblue;
     font-size: 36px;
+    border-right: 5px solid midnightblue;
 }
 
 #about-me p {
-    border-left: 5px solid midnightblue;
     flex-wrap: wrap;
     padding-left: 45px;
     color: darkslateblue;
@@ -133,3 +133,77 @@ header nav ul li a {
 }
 
 /* END ABOUT ME SECTION */
+/* WORK SECTIONS */
+
+#work {
+    display: flex;
+    padding: 60px;
+}
+
+#work h2 {
+    text-align: right;
+    padding-right: 45px;
+    margin-left: 80px;
+    color: midnightblue;
+    font-size: 36px;
+    border-right: 5px solid midnightblue;
+}
+
+#run-buddy {
+    padding-left: 45px;
+
+}
+
+#run-buddy a img {
+    width: 80%;
+
+    border: 5px solid midnightblue;
+    border-radius: 5px;
+}
+
+/* END WORK SECTIONS */
+/* BEGIN CONTACT ME */
+
+footer {
+    background-color: rgb(63, 62, 62);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 0;
+}
+
+footer h2 span {
+    font-size: 36px;
+    margin: 0;
+    align-items: flex-start;
+    color: rgb(63, 62, 62);
+    background-color: lightskyblue;
+    text-decoration: none;
+    padding: 5px 10px 5px 40px;
+    font-weight: bold;
+}
+
+footer nav {
+    margin: 7px 0;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+footer nav ul li a {
+    padding: 2px 15px;
+    font-weight: bold;
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: lightskyblue;
+    border-bottom: 3px solid lightskyblue;
+    border-radius: 5px;
+    margin: 5px 10px;
+
+}
