@@ -134,8 +134,8 @@ header nav ul li a {
 }
 
 #about-me img {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 250px;
+    max-width: 250px;
     border: 2px solid midnightblue;
     border-radius: 5px;
     margin-left: 10px;
