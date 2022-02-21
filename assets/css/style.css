@@ -77,7 +77,7 @@ header nav ul li a {
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
     background-position: 80%;
     height: 300px;
@@ -133,6 +133,14 @@ header nav ul li a {
     line-height: 25px;
 }
 
+#about-me img {
+    max-height: 200px;
+    max-width: 200px;
+    border: 2px solid midnightblue;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
 /* END ABOUT ME SECTION */
 /* WORK SECTIONS */
 
@@ -181,6 +189,12 @@ header nav ul li a {
 #run-buddy-text h3 a , h4 a {
     text-decoration: none;
     color: midnightblue;
+}
+
+#run-buddy-text:hover ~ #run-buddy-image {
+    opacity: 1;
+    transform-origin: bottom;
+    transition: .3s linear;
 }
 
 /* END WORK SECTIONS */
